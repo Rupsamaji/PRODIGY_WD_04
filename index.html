@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
@@ -10,6 +10,9 @@
 <link rel="stylesheet" href="style.css">
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<!-- Scroll Animation Library -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -32,25 +35,27 @@
 </header>
 
 
+<!-- HERO SECTION -->
+
 <section id="home" class="hero">
 
-<div class="hero-text">
+<div class="hero-text" data-aos="fade-right">
 
 <h1>Hello, I'm Rupsa Maji</h1>
 
-<h3>"Where imagination meets innovation 💡"</h3>
+<h3>Where imagination meets innovation 💡</h3>
 
 <p>
-I am currently pursuing B.Tech in Computer Science and Information Technology from<br>
-Institute of Engineering and Management, Kolkata. <br>
-Tech enthusiast, coder, and problem-solving junkie 
+B.Tech CSIT student at <br>
+Institute of Engineering and Management, Kolkata.<br>
+Tech enthusiast, coder, and problem-solving junkie.
 </p>
 
 <div class="buttons">
 
-<a href="https://github.com/Rupsamaji">GitHub</a>
+<a href="https://github.com/Rupsamaji" target="_blank">GitHub</a>
 
-<a href="https://www.linkedin.com/in/rupsa-maji-88963b28b">LinkedIn</a>
+<a href="https://www.linkedin.com/in/rupsa-maji-88963b28b" target="_blank">LinkedIn</a>
 
 <a href="mailto:majirupsa7@gmail.com">Email</a>
 
@@ -58,109 +63,124 @@ Tech enthusiast, coder, and problem-solving junkie
 
 </div>
 
-<div class="hero-img">
+<div class="hero-img" data-aos="zoom-in">
 
-<img src="profile.jpg.jpeg">
+<img src="profile.jpg.jpeg" alt="Rupsa Maji Profile Photo">
 
 </div>
 
 </section>
 
 
-<section id="about">
+<!-- ABOUT SECTION -->
+
+<section id="about" data-aos="fade-up">
 
 <h2>About Me</h2>
 
 <p>
 
-I am a Computer Science student with a passion for web development.<br> 
-As a budding web developer, I leverage my proficiency in C and Java to craft intuitive digital experiences.<br>
-I'm a firm believer in continuous learning and thrive in dynamic environments.<br>
-My passion lies in harnessing technology to tackle real-world challenges and create seamless user interactions.<br>
-I'm driven to contribute to innovative solutions and evolve as a full-stack expert, with a focus on frontend development and problem-solving.<br>
-My personal projects reflect my skills and dedication to delivering impactful tech solutions.<br>
+I am a Computer Science student passionate about web development and technology.<br> 
+I enjoy building responsive and interactive digital experiences using modern tools.<br>
+My technical foundation includes C, Java, and front-end web technologies.<br>
+I am always eager to learn new technologies and apply them to real-world problems.<br>
+My projects demonstrate my dedication to building innovative and impactful solutions.
 
 </p>
 
 </section>
 
 
+<!-- SKILLS -->
+
 <section id="skills">
 
-<h2>Skills</h2>
+<h2 data-aos="fade-up">Skills</h2>
 
 <div class="skills-container">
 
-<div class="skill">C Programming</div>
-<div class="skill">Java</div>
-<div class="skill">HTML</div>
-<div class="skill">CSS</div>
-<div class="skill">JavaScript</div>
+<div class="skill" data-aos="zoom-in">C Programming</div>
+<div class="skill" data-aos="zoom-in">Java</div>
+<div class="skill" data-aos="zoom-in">HTML</div>
+<div class="skill" data-aos="zoom-in">CSS</div>
+<div class="skill" data-aos="zoom-in">JavaScript</div>
 
 </div>
 
 </section>
 
 
+<!-- PROJECTS -->
+
 <section id="projects">
 
-<h2>Projects</h2>
+<h2 data-aos="fade-up">Projects</h2>
 
 <div class="projects">
 
-<div class="card">
+
+<div class="card" data-aos="zoom-in">
 
 <h3>Smart Health Tracking System</h3>
 
 <p>Web application to monitor health data.</p>
-<img src="shts.jpeg" alt="smart health img">
 
-<a href="https://rupsamaji.github.io/smart-health-system/">Live Project</a>
+<img src="shts.jpeg" alt="Smart Health Tracking System">
+
+<a href="https://rupsamaji.github.io/smart-health-system/" target="_blank">Live Project</a>
 
 </div>
 
 
-<div class="card">
+<div class="card" data-aos="zoom-in">
 
 <h3>Tic Tac Toe Game</h3>
 
 <p>JavaScript based browser game.</p>
-<img src="tictac.png" alt="TIC TAC">
+
+<img src="tictac.png" alt="Tic Tac Toe Game">
 
 </div>
 
 
-<div class="card">
+<div class="card" data-aos="zoom-in">
 
 <h3>Landing Page</h3>
 
 <p>Responsive landing page design.</p>
-<img src="landing.png" alt="landing">
+
+<img src="landing.png" alt="Landing Page">
 
 </div>
 
 
-<div class="card">
+<div class="card" data-aos="zoom-in">
 
 <h3>Stopwatch App</h3>
 
 <p>Stopwatch built using JavaScript.</p>
-<img src="stopwatch.jpeg" alt="stopwatch">
+
+<img src="stopwatch.jpeg" alt="Stopwatch App">
 
 </div>
+
 
 </div>
 
 </section>
 
+
+<!-- CONTACT -->
 
 <section id="contact">
 
 <h2>Contact</h2>
 
-<p>Email: majirupsa7@gmail.com</p>
+<p>Email: <a href="mailto:majirupsa7@gmail.com">majirupsa7@gmail.com</a></p>
 
-<p>GitHub: github.com/Rupsamaji</p>
+<p>GitHub: <a href="https://github.com/Rupsamaji" target="_blank">github.com/Rupsamaji</a></p>
+
+<p>LinkedIn: <a href="https://www.linkedin.com/in/rupsa-maji-88963b28b" target="_blank">LinkedIn Profile</a></p>
 
 </section>
 
@@ -170,6 +190,18 @@ My personal projects reflect my skills and dedication to delivering impactful te
 <p>© 2026 Rupsa Maji</p>
 
 </footer>
+
+
+<!-- Animation Script -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+AOS.init({
+duration: 1000,
+once: true
+});
+</script>
 
 </body>
 
